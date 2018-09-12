@@ -45,7 +45,7 @@ def updatelabel():
     global songname
     v.set(listofsongs[index])
 
-directory = "D:\music"
+directory = "C:\Music"
 os.chdir(directory)
 for files in os.listdir(directory):
 	if files.endswith(".mp3"):
